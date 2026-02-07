@@ -215,6 +215,6 @@ writetable(lypunov_table, 'figure_3d.csv')
 lypunov_max_table = table(lambda_final(1,:), ...
     lambda_final(2,:), lambda_final(3,:), ...
    'VariableNames',{'lambda1','lambda2','lambda3'});
-writetable(lypunov_table, 'figure_3d_last_value.csv')
+writetable(lypunov_max_table, 'figure_3d_last_value.csv')
 
 
